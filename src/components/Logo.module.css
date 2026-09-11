@@ -1,0 +1,8 @@
+.logo { display:flex; align-items:center; gap:11px; min-width:max-content; }
+.mark { position:relative; width:38px; height:38px; display:inline-block; }
+.mark i { position:absolute; top:3px; bottom:3px; width:19px; border-radius:50% 8px 8px 50%; transform:rotate(45deg); }
+.left { left:1px; background:var(--orange); }
+.right { right:1px; background:var(--green-2); transform:rotate(225deg)!important; }
+.wordmark { display:flex; flex-direction:column; line-height:.88; }
+.wordmark strong { font-size:24px; letter-spacing:-.055em; font-weight:900; }
+.wordmark small { margin-top:6px; font-size:8px; font-weight:800; letter-spacing:.22em; text-transform:uppercase; color:var(--ink-soft); }
